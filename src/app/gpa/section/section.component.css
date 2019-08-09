@@ -1,0 +1,40 @@
+.news-section #homeCompNewsContent.content-row{
+    padding: 18px 18px;
+}
+.content-row{
+    position: relative;
+    margin-bottom: 13px;
+    padding: 18px 22px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 5px 1px #d2d1d1;
+    box-shadow: 1px 1px 5px 1px #d2d1d1;
+}
+#homeCalendar{
+    box-shadow: 1px 1px 5px 1px #d2d1d1;
+    margin-bottom: 13px;
+}
+.head-wrap h1 {
+    font-size: 16px;
+    color: #717f80;
+    margin-top: 0;
+    font-family: HelveticaLight;
+    text-transform: uppercase;
+}
+.head-wrap .more {
+    float: right;
+    vertical-align: middle;
+    font-size: 14px;
+    /*line-height: 36px;*/
+    color: #34495e;
+    text-transform: capitalize;
+}
+.row-divider:last-of-type {
+    margin-bottom: 0;
+    border: none;
+}
+@media (min-width: 1024px){
+    #homeCollegeNews {
+        height: 365px;
+        overflow-y: hidden;
+    }   
+}
